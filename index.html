@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinSense - Personalized Skincare Routines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Personalized skincare routines for your unique needs</h1>
+            <p>Discover the perfect skincare routine tailored to your specific skin type and concerns.</p>
+        </div>
+    </section>
+
+    <!-- Routines Section -->
+    <section id="routines" class="routines">
+        <div class="container">
+            <h2>Find Your Perfect Routine</h2>
+            
+            <!-- The Minimalist -->
+            <div class="routine-card">
+                <div class="routine-header">
+                    <h3>The Minimalist</h3>
+                    <p>For busy/low-maintenance users with normal/balanced skin</p>
+                </div>
+                <div class="routine-content">
+                    <div class="routine-column morning">
+                        <div class="column-header">
+                            <i class="fas fa-sun"></i>
+                            <h4>Morning</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Cleanser</h5>
+                                    <p>Gently wash away overnight buildup with a mild cleanser.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="CeraVe Hydrating Cleanser" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">CeraVe Hydrating Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="Cetaphil Gentle Skin Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">Cetaphil Gentle Skin Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Moisturizer + SPF</h5>
+                                    <p>Hydrate and protect your skin with a combined moisturizer and sunscreen.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="CeraVe AM Facial Moisturizing Lotion SPF 30" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">CeraVe AM Facial Moisturizing Lotion SPF 30</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="Neutrogena Hydro Boost Water Gel with SPF" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">Neutrogena Hydro Boost Water Gel with SPF</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="routine-column evening">
+                        <div class="column-header">
+                            <i class="fas fa-moon"></i>
+                            <h4>Evening</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Cleanser</h5>
+                                    <p>Remove the day's dirt, oil, and pollutants.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="CeraVe Hydrating Cleanser" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">CeraVe Hydrating Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="Cetaphil Gentle Skin Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">Cetaphil Gentle Skin Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Moisturizer</h5>
+                                    <p>Replenish and lock in moisture overnight.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="CeraVe PM Facial Moisturizing Lotion" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">CeraVe PM Facial Moisturizing Lotion</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="Neutrogena Hydro Boost Gel-Cream" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">Neutrogena Hydro Boost Gel-Cream</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- The Oil Controller -->
+            <div class="routine-card">
+                <div class="routine-header">
+                    <h3>The Oil Controller</h3>
+                    <p>For oily/combination skin prone to breakouts</p>
+                </div>
+                <div class="routine-content">
+                    <div class="routine-column morning">
+                        <div class="column-header">
+                            <i class="fas fa-sun"></i>
+                            <h4>Morning</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Cleanser</h5>
+                                    <p>Start with a gentle foaming cleanser to remove excess oil.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="La Roche-Posay Effaclar Purifying Foaming Gel" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">La Roche-Posay Effaclar Purifying Foaming Gel</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="CeraVe Foaming Facial Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">CeraVe Foaming Facial Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Lightweight Moisturizer</h5>
+                                    <p>Hydrate without adding excess oil with a lightweight, oil-free formula.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Neutrogena Hydro Boost Water Gel" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Neutrogena Hydro Boost Water Gel</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Effaclar Mat" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Effaclar Mat</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="routine-column evening">
+                        <div class="column-header">
+                            <i class="fas fa-moon"></i>
+                            <h4>Evening</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Cleanser</h5>
+                                    <p>Thoroughly cleanse to remove the day's oil buildup and impurities.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="La Roche-Posay Effaclar Purifying Foaming Gel" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">La Roche-Posay Effaclar Purifying Foaming Gel</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="CeraVe Foaming Facial Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">CeraVe Foaming Facial Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Exfoliant</h5>
+                                    <p>Use a BHA (salicylic acid) exfoliant to unclog pores and reduce breakouts.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Paula's Choice 2% BHA Liquid Exfoliant" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Paula's Choice 2% BHA Liquid Exfoliant</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="The Ordinary Salicylic Acid 2% Solution" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">The Ordinary Salicylic Acid 2% Solution</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 3: Oil-Free Moisturizer</h5>
+                                    <p>Hydrate with a non-comedogenic, oil-free moisturizer.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Neutrogena Hydro Boost Gel-Cream" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Neutrogena Hydro Boost Gel-Cream</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="CeraVe PM Facial Moisturizing Lotion" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">CeraVe PM Facial Moisturizing Lotion</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- The Dry Skin Soother -->
+            <div class="routine-card">
+                <div class="routine-header">
+                    <h3>The Dry Skin Soother</h3>
+                    <p>For dry/dehydrated skin needing extra hydration</p>
+                </div>
+                <div class="routine-content">
+                    <div class="routine-column morning">
+                        <div class="column-header">
+                            <i class="fas fa-sun"></i>
+                            <h4>Morning</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Cream Cleanser</h5>
+                                    <p>Gently cleanse without stripping natural oils.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="La Roche-Posay Toleriane Hydrating Gentle Cleanser" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">La Roche-Posay Toleriane Hydrating Gentle Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="Cetaphil Gentle Skin Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">Cetaphil Gentle Skin Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Hydrating Serum</h5>
+                                    <p>Add an extra layer of hydration with a hyaluronic acid serum.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="The Ordinary Hyaluronic Acid 2% + B5" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">The Ordinary Hyaluronic Acid 2% + B5</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Hyalu B5 Serum" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Hyalu B5 Serum</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 3: Rich Moisturizer</h5>
+                                    <p>Lock in hydration with a rich, nourishing moisturizer.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="CeraVe Moisturizing Cream" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">CeraVe Moisturizing Cream</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Lipikar Balm AP+" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Lipikar Balm AP+</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="routine-column evening">
+                        <div class="column-header">
+                            <i class="fas fa-moon"></i>
+                            <h4>Evening</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Cleansing Balm/Oil</h5>
+                                    <p>Gently dissolve makeup and impurities without stripping the skin.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Clinique Take The Day Off Cleansing Balm" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Clinique Take The Day Off Cleansing Balm</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="The Ordinary Squalane Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">The Ordinary Squalane Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Night Cream/Occlusive</h5>
+                                    <p>Apply a rich night cream to deeply nourish and repair overnight.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="CeraVe Skin Renewing Night Cream" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">CeraVe Skin Renewing Night Cream</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Cicaplast Baume B5" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Cicaplast Baume B5</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- The Sensitive Skin Protector -->
+            <div class="routine-card">
+                <div class="routine-header">
+                    <h3>The Sensitive Skin Protector</h3>
+                    <p>For reactive/rosacea-prone skin that needs gentle care</p>
+                </div>
+                <div class="routine-content">
+                    <div class="routine-column morning">
+                        <div class="column-header">
+                            <i class="fas fa-sun"></i>
+                            <h4>Morning</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Gentle Cleanser</h5>
+                                    <p>Cleanse with a fragrance-free, gentle formula designed for sensitive skin.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Vanicream Gentle Facial Cleanser" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Vanicream Gentle Facial Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Toleriane Hydrating Gentle Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Toleriane Hydrating Gentle Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Soothing Serum</h5>
+                                    <p>Calm and reduce redness with a soothing, anti-inflammatory serum.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Avène Antirougeurs Fort Relief Concentrate" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Avène Antirougeurs Fort Relief Concentrate</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="The Ordinary Azelaic Acid Suspension 10%" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">The Ordinary Azelaic Acid Suspension 10%</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 3: Mineral SPF</h5>
+                                    <p>Protect with a mineral-based sunscreen that won't irritate sensitive skin.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="EltaMD UV Physical Broad-Spectrum SPF 41" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">EltaMD UV Physical Broad-Spectrum SPF 41</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Anthelios Mineral Gentle Sunscreen SPF 50" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Anthelios Mineral Gentle Sunscreen SPF 50</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="routine-column evening">
+                        <div class="column-header">
+                            <i class="fas fa-moon"></i>
+                            <h4>Evening</h4>
+                        </div>
+                        <div class="routine-steps">
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 1: Gentle Cleanser</h5>
+                                    <p>Remove the day's impurities with a non-irritating cleanser.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="Vanicream Gentle Facial Cleanser" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">Vanicream Gentle Facial Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="La Roche-Posay Toleriane Hydrating Gentle Cleanser" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">La Roche-Posay Toleriane Hydrating Gentle Cleanser</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-content">
+                                    <h5>Step 2: Repair Moisturizer</h5>
+                                    <p>Strengthen the skin barrier with a ceramide-rich, soothing moisturizer.</p>
+                                    <div class="products">
+                                        <div class="product-item specialty">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=180&width=180" alt="La Roche-Posay Cicaplast Baume B5" class="product-image specialty-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Specialty:</strong> <a href="#" class="product-link">La Roche-Posay Cicaplast Baume B5</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-item alternative">
+                                            <div class="product-image-container">
+                                                <img src="/placeholder.svg?height=120&width=120" alt="Avène Cicalfate Restorative Protective Cream" class="product-image alternative-image">
+                                            </div>
+                                            <div class="product-info">
+                                                <p><strong>Alternative:</strong> <a href="#" class="product-link">Avène Cicalfate Restorative Protective Cream</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Skindex. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
