@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What's Your Skin Type?</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./styles/quiz-styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>What's Your Skin Type?</h1>
+    
+    <div id="quiz-box">
+      <div class="quiz-progress">Question <span id="current-question">1</span> of <span id="total-questions">5</span></div>
+      <div class="quiz-question" id="question-text">How does your skin feel after washing?</div>
+      <div id="answers-container"></div>
+    </div>
+    
+    <div id="result-box">
+      <h2 id="result-title" style="text-align: center; margin-bottom: 15px; text-transform: capitalize;"></h2>
+      
+      <div style="margin-bottom: 15px;">
+        <p id="result-description" style="margin-bottom: 10px;"></p>
+        
+        <h3 style="font-size: 16px; margin-bottom: 8px;">Tips:</h3>
+        <ul id="result-tips" style="padding-left: 20px;"></ul>
+      </div>
+      
+      <button id="restart-btn">Try Again</button>
+    </div>
+    
+    <div id="footer">
+      <p>IDSN531</p>
+    </div>
+  </div>
+
+  <script src="./scripts/skin-quiz-script.js"></script>
+</body>
+</html>
